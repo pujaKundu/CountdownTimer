@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./photo-1517299321609-52687d1bc55a.jfif");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.countdown {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    font-size: 5rem;
+    margin: 3rem;
+}
+
+.countdown-el span {
+    margin: 3rem;
+    font-size: 1.3rem;
+}
